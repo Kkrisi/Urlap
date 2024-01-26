@@ -11,3 +11,21 @@ form label {
     display: block;
     width: 110px;
 }
+form {
+    max-width: 400px;
+    width: 80%;
+    margin: auto;
+}
+#kuldesGomb {
+    margin: auto;
+}
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#evjarat {
+    width: 70px;
+}
+#block {
+    width: 70px;
+}
