@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+input {
+    margin: 5px;
+}
+input[type=text]:focus {
+    background-color: lightgreen;
+  }  
+form label {
+    display: block;
+    width: 110px;
+}

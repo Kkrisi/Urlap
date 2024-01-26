@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Autók</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Autók Adatai</legend>
+            <label for="k_marka">Kedvenc márka:</label>
+            <input type="text" id="k_marka" name="marka" value="Honda"><br>
+
+            <label for="tipus">Típus:</label>
+            <input type="text" id="tipus" name="tipus" value="Civic"><br>
+
+            <label for="evjarat">Évjárat:</label>
+            <input type="range" name="evjarat" min="1804" max="2024" id="evjarat" oninput="this.form.evjarat_szam.value = this.value">
+            <input type="number" name="evjarat_szam" min="1804" max="2024"  oninput="this.form.evjarat.value = this.value"><br>
+
+            <input type="submit" value="Küldés">
+        </fieldset>
+    </form>
+</body>
+</html>
